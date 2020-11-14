@@ -8,6 +8,10 @@ Batch: FOT1-MU(2017-2021)
 
 Marwadi University
 
+
+
 Method Used: Simple HTML DOM Parser
+
+
 
 Live Website: smilo7370.byethost16.com
