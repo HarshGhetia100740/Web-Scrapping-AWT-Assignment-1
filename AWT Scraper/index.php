@@ -5,7 +5,7 @@ $username = "root";
 $password = "";
 $dbname = "harshawt";
 $z = 1;
-for ($x = 1; $x <= 3; $x++)
+for ($x = 1; $x <= 3; $x++) //For Fetching 3 Pages '$x <= 3', You can Toggle This Value for More than 3 Pages
 {
 	$target_url = 'https://moviesverse.com/page/'.$z.'/';
 	$html = new simple_html_dom();
