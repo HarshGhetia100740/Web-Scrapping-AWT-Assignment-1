@@ -1,6 +1,6 @@
 <?php
 include('simple_html_dom.php');
-$target_url = 'https://moviesverse.com/download-a-hard-day-2014-hindi-480p-720p/';
+$target_url = 'https://moviesverse.com/download-a-hard-day-2014-hindi-480p-720p/'; //Insert Target URL from https://moviesverse.com
 $html = new simple_html_dom();
 $html->load_file($target_url);
 foreach($html->find("div[class=thecontent clearfix]") as $link)
